@@ -1,0 +1,36 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.contenedor {
+  position: relative;
+  width: 100%;
+}
+
+#circulo {
+  position: absolute;
+  margin-left: 20%;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: red;
+  border: 2px solid black;
+}
+
+#rombo {
+  position: absolute;
+  margin-left: 70%;
+  margin-top: 30%;
+  width: 150px;
+  height: 150px;
+  background-color: blue;
+  transform: rotate(45deg);
+  border: 2px solid black;
+}
